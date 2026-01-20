@@ -1,0 +1,14 @@
+project a contextapi add korbo ar contextapi ke app er sathe .ok
+reducer ke context a nite hobe .Ok
+rap nakore custom hook use korbo .ok
+table ke user_data diye dynamic korte hobe. ok
+filtering sytem add korte hobe selector a je option ase tar opor base korte.ok
+search sytem korte hobe .ok
+delete method O thakte hobe.ok
+add new user   korte hobe
+user data update or edite system add kora lagbe
+user data edit korar jonno modal banate hobe (modal toggle korbe edit button click modal show close(x) button click modal hidden)
+
+//// most important 
+add user will be in addcontact components but 
+edit will be in context because its gobal 
