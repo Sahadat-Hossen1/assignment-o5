@@ -1,4 +1,4 @@
  const Api={
-    "USERS":"http://localhost:3003/users"
+    "USERS":"https://fake-json2.onrender.com/"
 }
 export default Api;

@@ -1,6 +1,6 @@
  const DeleteUser=async(userId)=>{
     try{
-        const res=await fetch(`http://localhost:3003/users/${userId}`,{
+        const res=await fetch(`https://fake-json2.onrender.com/${userId}`,{
             method:"DELETE"
         });
         if(!res.ok){
