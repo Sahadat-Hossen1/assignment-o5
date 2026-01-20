@@ -4,12 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --host --port 5001",
+    "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "json-server": "json-server --watch db.json --port 3003",
-    "start": "concurrently \"npm run json-server\" \"npm run dev\" "
+    "json-server": "json-server --watch db.json --port 3003"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
