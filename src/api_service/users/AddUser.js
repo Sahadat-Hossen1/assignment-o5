@@ -1,6 +1,6 @@
 const AddUser=async(newUser)=>{
     try{
-        const res=await fetch(`https://fake-json2.onrender.com/`,{
+        const res=await fetch(`https://fake-json2.onrender.com/contacts`,{
             method:"POST",
             headers:{
                 "Content-Type":"application/json"

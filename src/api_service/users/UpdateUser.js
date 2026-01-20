@@ -1,6 +1,6 @@
 const updateUser=async(userId,userData)=>{
     try{
-        const res=await fetch(`https://fake-json2.onrender.com/${userId}`,{
+        const res=await fetch(`https://fake-json2.onrender.com/contacts/${userId}`,{
             method:"PUT",
             headers:{
                 "Content-Type":"application/json"
