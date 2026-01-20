@@ -3,7 +3,7 @@ import ContactList from "./pages/ContactList";
 import ContactDetails from "./pages/ContactDetails";
 import AddContact from "./pages/AddContact";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Layout from "./components/layout/layout";
+import Layout from './components/layout/Layout';
 
 const router = createBrowserRouter([
   {
