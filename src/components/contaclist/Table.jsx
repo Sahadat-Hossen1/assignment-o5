@@ -42,7 +42,7 @@ export default function Table({ loading, finalData, handleDelete }) {
                 <td>{item?.firstName}</td>
                 <td>{item?.lastName}</td>
                 <td>{item?.email}</td>
-                <td>{item?.address}</td>
+                <td>{item?.phone}</td>
                 <td>
                   <Link
                     to={`/contact/${item?.id}`}
